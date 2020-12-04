@@ -1,0 +1,36 @@
+*{
+  border: 0;
+  margin: 0;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.body{
+  background-image:url(./BG/bg.jpg)
+}
+.menu{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+.top{
+  align-items: center;
+  display: flex;
+  padding: 5px 15px 5px 15px;
+}
+.top__word{
+  padding: 0px 15px;
+  color: black;
+  text-decoration: none;
+}
+.menu__icon{
+  max-width: 38px;
+  max-height: 38px;
+}
+.home__icon{
+  max-width: 25px;
+  max-height: 25px;
+  display: block;
+  border: 1px solid #bebdbd;
+}
