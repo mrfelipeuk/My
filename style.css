@@ -6,7 +6,9 @@
 }
 
 .body{
-  background-image:url(./BG/bg.jpg)
+  background-image:url(./BG/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .menu{
   align-items: center;
@@ -33,4 +35,11 @@
   max-height: 25px;
   display: block;
   border: 1px solid #bebdbd;
+}
+.text{
+  font-size: 15px;
+  display: flex;
+  max-width: 500px;
+  max-height: 100px;
+  font-weight: bold;
 }
